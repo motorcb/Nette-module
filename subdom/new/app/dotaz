@@ -1,0 +1,18 @@
+Zdravim.
+Zkusím to více objasnit ukázkou v GITu.
+Mám testovací domenu domena.local ktera pobezi u Wedosu, který má adresarovou strukturu jako je v projektu.
+
+Zprovoznil jsem sudbomenu:
+new.domena.local
+m.domena.local
+
+To mi funguje. Jen nevím jak u subdomeny m.domena.local zobrazovat obrázky se slozky
+/subdom/new/www/pictures/...
+Protoze script si saha pro vsechny obrazky a JS do /subdom/m/
+
+
+Mám špatně celý návrh, nebo jak zobrazim obrázky z jiného modulu???
+
+Viz /templates/hmepage/default.latte
+
+Díky za jakékoliv nakopnutí 

@@ -1,0 +1,17 @@
+{block content}
+    <h1>Mobilni verze</h1>
+    
+    Proč oba obrázky uvedené níže se načítájí ze složky m/obrazek.jpg ????<br/>
+    Jak jednoduše docílím toho aby {$basePath} v tomot modulu odkazoval na stejnou adresu jako v modulu new???</br>
+    </br>
+    Jde mi o zobrazení obrázku na této pozici: ../new/www/pictures/mobile/obrazek.jpg<br/>
+    Dokonce ani posledním příkazem ho nezobrazím.
+    Hosting mám u Wedosu. Dokázal by někdo poradit?
+     
+    <br/>
+    <img src="obrazek.jpg"/>
+    <hr/>
+    <img src="{$basePath}/obrazek.jpg"/>
+    <hr/>
+    <img src="/../new/www/pictures/mobile/obrazek.jpg"/>
+{/block}
